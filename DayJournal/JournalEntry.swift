@@ -23,7 +23,7 @@ class JournalEntry: Identifiable {
 
 let journalEntries: [JournalEntry] = [
     JournalEntry(title: "Great Day!", text: "Today the weather was fantastic. It was bright and sunny, and the plants were blooming", rating: 5, date: Date()),
-    JournalEntry(title: "Not so good...", text: "Today the weather was very rainy and windy. Did not approve", rating: 1, date: Date()),
-    JournalEntry(title: "Cloudy", text: "The weather today was very cloudy. But it was still very warm. 3 stars", rating: 3, date: Date()),
-    JournalEntry(title: "Very relaxing", text: "Nothing too crazy happened today. I felt pretty good! But I did stub my toe", rating: 4, date: Date()),
+    JournalEntry(title: "Not so good...", text: "Today the weather was very rainy and windy. Did not approve", rating: 1, date: Date.now.addingTimeInterval(-24 * 60 * 60)),
+    JournalEntry(title: "Cloudy", text: "The weather today was very cloudy. But it was still very warm. 3 stars", rating: 3, date: Date.now.addingTimeInterval(2 * -24 * 60 * 60)),
+    JournalEntry(title: "Very relaxing", text: "Nothing too crazy happened today. I felt pretty good! But I did stub my toe", rating: 4, date: Date.now.addingTimeInterval(3 * -24 * 60 * 60)),
 ]

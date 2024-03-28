@@ -16,6 +16,7 @@
 		15589D942BB238D600E2351D /* DayJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15589D932BB238D600E2351D /* DayJournalUITestsLaunchTests.swift */; };
 		15589DA12BB244AD00E2351D /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15589DA02BB244AD00E2351D /* JournalEntry.swift */; };
 		15589DAB2BB4E1E700E2351D /* JournalEntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15589DAA2BB4E1E700E2351D /* JournalEntryDetailView.swift */; };
+		15589DB32BB4FB2400E2351D /* JournalEntryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15589DB22BB4FB2400E2351D /* JournalEntryRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		15589D932BB238D600E2351D /* DayJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15589DA02BB244AD00E2351D /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 		15589DAA2BB4E1E700E2351D /* JournalEntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryDetailView.swift; sourceTree = "<group>"; };
+		15589DB22BB4FB2400E2351D /* JournalEntryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				15589D762BB238D400E2351D /* DayJournalApp.swift */,
 				15589D782BB238D400E2351D /* JournalEntriesListView.swift */,
+				15589DB22BB4FB2400E2351D /* JournalEntryRowView.swift */,
 				15589DAA2BB4E1E700E2351D /* JournalEntryDetailView.swift */,
 				15589DA02BB244AD00E2351D /* JournalEntry.swift */,
 				15589D7A2BB238D600E2351D /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15589DB32BB4FB2400E2351D /* JournalEntryRowView.swift in Sources */,
 				15589DA12BB244AD00E2351D /* JournalEntry.swift in Sources */,
 				15589D792BB238D400E2351D /* JournalEntriesListView.swift in Sources */,
 				15589DAB2BB4E1E700E2351D /* JournalEntryDetailView.swift in Sources */,

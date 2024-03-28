@@ -15,7 +15,7 @@ struct JournalEntriesListView: View {
                 NavigationLink(destination: {
                     JournalEntryDetailView(detailJournalEntry: listedJournalEntry)
                 }) {
-                    Text(listedJournalEntry.title)
+                    JournalEntryRowView(journalEntry: listedJournalEntry)
                 }
             }
             .navigationTitle("\(journalEntries.count) Journal Entries")
